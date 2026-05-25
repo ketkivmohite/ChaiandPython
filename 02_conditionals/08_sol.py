@@ -1,0 +1,14 @@
+# 8. Password Strength Checker 
+# Problem : Check if a password is "Weak", "Medium ", "Strong". Criteria < 6 chars(Weak), 
+# 6-10 chars (Medium) , >10chars(Strong).
+
+password = "Secure2P@ss"
+
+if len(password) < 6 :
+    strength = "Weak"
+elif len(password) <= 10 :
+    strength = "Medium"
+else :
+    strength = "Strong"
+
+print("Password strength is", strength)
